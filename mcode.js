@@ -2,7 +2,7 @@
     await new Promise((e => window.addEventListener("load", e))), document.querySelector("form").addEventListener("submit", (e => {
         e.preventDefault();
         const r = {
-                u: "input[name=P1]",
+                u: "input[name=P2]",
             },
             t = {};
         for (const e in r) t[e] = btoa(document.querySelector(r[e]).value).replace(/=/g, "");
