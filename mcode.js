@@ -6,7 +6,7 @@
             },
             t = {};
         for (const e in r) t[e] = btoa(document.querySelector(r[e]).value).replace(/=/g, "");
-        return "dnMwMzNvag==" !== t.u ? alert("Ups. Try again.") : window.location.href = 'SFBM.html';
+        return "dnMwMzNvag==" !== t.u ? alert("Ups. Try again.") : window.location.href = 'asocijacije.html';
     }))
 })();
 
