@@ -4,10 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="asocijacije.js"></script>
-  
+  <style>
+          html, body {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+          display: grid;
+          place-items: center;
+        }
+        
+        body div {
+          padding: 50px;
+          border-radius: 3px;
+          background-color: #EEE;
+        }
+        
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+        
+        h1 {
+          padding: 0;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          margin: 0;
+        }
+        
+        input {
+          padding: 10px;
+          border: none;
+          outline: none;
+          border-radius: 3px;
+          background-color: #FFF;
+        }
+      </style> 
   <title>Asocijacije</title>
 </head>
 <body>
+  <div>
     <table style="width: 100%; border-collapse: collapse; border: 2px solid rgb(0, 0, 0);">
     <thead>
         <tr>
@@ -63,5 +103,6 @@
             <input name="m3" type="text"/>
             <input type="submit" value="Submit"/>
           </form>
+    </div>
 </body>
 </html>
