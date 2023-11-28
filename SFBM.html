@@ -4,19 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="mcode.js"></script>
-  
+  <style>
+          html, body {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+          display: grid;
+          place-items: center;
+        }
+        
+        body div {
+          padding: 50px;
+          border-radius: 3px;
+          background-color: #EEE;
+        }
+        
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+        
+        h1 {
+          padding: 0;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          margin: 0;
+        }
+        
+        input {
+          padding: 10px;
+          border: none;
+          outline: none;
+          border-radius: 3px;
+          background-color: #FFF;
+        }
+      </style>
   <title>Listen</title>
 </head>
 <body>
-  <h1>Listen carefully, Samuel!</h1>
-  <audio controls>
-    <source src="./audio/mcode.wav" type="audio/wav">
-  </audio>
-  <form id="loginForm" method="post">
-      
-      <input class="form-input" type="text" autofocus id="password" maxlength="7" name="P2">
-      
-      <button type="submit">Next</button>
-  </form>
+  <div>
+    <h1>Listen carefully, Samuel!</h1>
+    <audio controls>
+      <source src="./audio/mcode.wav" type="audio/wav">
+    </audio>
+    <form id="loginForm" method="post">
+        
+        <input class="form-input" type="text" autofocus id="password" maxlength="7" name="P2">
+        
+        <button type="submit">Next</button>
+    </form>
+  </div>
+  
 </body>
 </html>
