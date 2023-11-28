@@ -8,7 +8,7 @@
             },
             t = {};
         for (const e in r) t[e] = btoa(document.querySelector(r[e]).value).replace(/=/g, "");
-        return "YnVsZ2Frb3Y" !== t.u ? alert("Incorrect First Column") : "cGljYQ" !== t.p ? alert("Incorrect Second Column") : "YmF0YQ" !== t.x ? alert("Incorrect Third Column") : window.location.href = 'final.html';
+        return "QnVsZ2Frb3Y" !== t.u ? alert("Incorrect First Column") : "UGljYQ" !== t.p ? alert("Incorrect Second Column") : "QmF0YQ" !== t.x ? alert("Incorrect Third Column") : window.location.href = 'final.html';
     }))
 })();
 
